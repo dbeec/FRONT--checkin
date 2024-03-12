@@ -34,7 +34,7 @@ export default function Login() {
             </div>
 
             <div className={styles.button}>
-              <a href="/admin">Entrar</a>
+              <a href="/admin/etfundacion">Entrar</a>
             </div>
           </form>
         </div>
