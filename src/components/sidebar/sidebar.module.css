@@ -1,0 +1,152 @@
+.contentsidebar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 250px;
+  height: 100%;
+  background-color: #eee;
+  padding: 0 1rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 4px;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.contentlogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 8%;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.contentlogo h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.contentlogo h2 span {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.categories {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+
+.createuser {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.5rem;
+
+}
+
+.createuser li {
+  text-align: center;
+  background-color: #fff;
+  color: #222;
+  width: 100%;
+  padding: .7rem 2rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: .7rem;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+  cursor: pointer;
+  transition: all .3s ease;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+.createuser li:hover {
+  background-color: #dfdfdf;
+  color: #222;
+}
+
+.contentoptions {
+  /* background-color: #fff; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.contentoptions li {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.7rem;
+  border-radius: 3px;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.contentoptions li:hover {
+  background-color: #dfdfdf;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.historytables {
+  /* background-color: #fff; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.historytables li {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.7rem;
+  border-radius: 3px;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.historytables li:hover {
+  background-color: #dfdfdf;
+}
+
+.contentlogout {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 20%;
+  margin-left: 0.5rem;
+}
+
+.contentlogout li {
+  background-color: #fff;
+  color: #222;
+  width: 100%;
+  padding: 0.7rem 2rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  list-style: none;
+}
+
+.contentlogout li:hover {
+  background-color: #dfdfdf;
+  color: #222;
+}
