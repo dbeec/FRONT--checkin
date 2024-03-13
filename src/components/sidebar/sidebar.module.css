@@ -4,7 +4,7 @@
   position: relative;
   width: 250px;
   height: 100%;
-  background-color: #eee;
+  background-color: #007f73;
   padding: 0 1rem;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 4px;
 
@@ -26,17 +26,20 @@
 .contentlogo h2 {
   font-size: 2rem;
   font-weight: 600;
+  color: #fff;
 }
 
 .contentlogo h2 span {
   font-size: 2.5rem;
   font-weight: 900;
+  color: #222;
 }
 
 .categories {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 0.7rem;
+  color: #222;
 }
 
 .createuser {
@@ -87,10 +90,11 @@
   font-weight: 600;
   font-size: 0.8rem;
   transition: all 0.3s ease;
+  color: #fff;
 }
 
 .contentoptions li:hover {
-  background-color: #dfdfdf;
+  background-color: rgba(34, 34, 34, 0.5);
 }
 
 .icon {
@@ -118,10 +122,11 @@
   font-weight: 600;
   font-size: 0.8rem;
   transition: all 0.3s ease;
+  color: #fff;
 }
 
 .historytables li:hover {
-  background-color: #dfdfdf;
+  background-color: rgba(34, 34, 34, 0.5);
 }
 
 .contentlogout {

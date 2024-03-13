@@ -1,5 +1,5 @@
 .contentheader {
-  background-color: #fff;
+  background-color: #007f73;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,13 +16,13 @@
 
 .welcome li {
   list-style: none;
-  color: #a8a8a8;
+  color: #fff;
   font-size: 1.4rem;
   font-weight: 500;
 }
 
 .welcome .name {
-  color: #222;
+  color: #fff;
   font-weight: 800;
 }
 
