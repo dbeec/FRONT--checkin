@@ -1,5 +1,5 @@
 .contentheader {
-  background-color: #007f73;
+  background-color: #b0c5a4;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,18 +16,19 @@
 
 .welcome li {
   list-style: none;
-  color: #fff;
+  color: #222;
   font-size: 1.4rem;
   font-weight: 500;
 }
 
 .welcome .name {
-  color: #fff;
+  color: #222;
   font-weight: 800;
 }
 
 .welcome span {
   font-weight: 500;
+  color: #fff;
 }
 
 .profile {
